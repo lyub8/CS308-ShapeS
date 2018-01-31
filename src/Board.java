@@ -37,5 +37,9 @@ public  class Board extends JPanel {
      // Draw a Blue Square
         g2.setColor(Color.blue);
         g2.fillRect(50, 350,  100,  100);
+        
+        //Orange thingy
+        g2.setColor(Color.orange);
+        g2.fillRoundRect(350, 350, 100, 100, 50, 50);
     }
 }
