@@ -27,8 +27,11 @@ public  class Board extends JPanel {
         Graphics2D g2 = (Graphics2D) g;
         
         // Draw a Black Circle
-
         g2.setColor(Color.black);
         g2.fillOval(50, 50, 100, 100);
+        
+    	// Draw a Red square
+        g2.setColor(Color.red);
+        g2.fillRect(350, 50,  100,  100);
     }
 }
