@@ -41,5 +41,6 @@ public  class Board extends JPanel {
         //Orange thingy
         g2.setColor(Color.orange);
         g2.fillRoundRect(350, 350, 100, 100, 50, 50);
+
     }
 }
